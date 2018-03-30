@@ -1,3 +1,6 @@
+-- use after testing is complete
+--node.compile()
+
 -- load credentials, 'SSID' and 'PASSWORD' declared and initialize in there
 dofile("credentials.lua")
 
