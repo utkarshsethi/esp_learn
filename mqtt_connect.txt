@@ -1,0 +1,6 @@
+mqtt://test:test@m13.cloudmqtt.com:16476
+
+m13.cloudmqtt.com
+16476
+node : node
+/gpio
