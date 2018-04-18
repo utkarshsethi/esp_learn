@@ -2,18 +2,18 @@ config = {}
 
 -- WIFI
 config.SSID = {}
-config.SSID["prasad"] = "AkasHPrasaD3#"
-config.SSID["wifi"] = "hihihi123"
+config.SSID["ssid1"] = "pass1"
+config.SSID["ssid2"] = "pass2"
 
 
 -- MQTT
-config.HOST = "m13.cloudmqtt.com"
-config.PORT = 16476
+config.HOST = "server address"
+config.PORT = 1234
 config.ID = "esp1"
-config.ENDPOINT = "/gpio"
+config.ENDPOINT = "/tpoic"
 config.USER = "test"
 config.PASS = "test"
-config.MQTLS = 0 -- 0 = unsecured, 1 = TLS/SSL
+config.MQTLS = 0 -- 0 = unsecured, 1 = TLS/SSL FOR FUTURE EXPANSION
 
 config.GPIO = {}
 -- LEDs
