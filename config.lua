@@ -4,16 +4,18 @@ config = {}
 config.SSID = {}
 config.SSID["ssid1"] = "pass1"
 config.SSID["ssid2"] = "pass2"
-
+config.SSID["ssid3"] = "pass3"
+--...
+--...
 
 -- MQTT
-config.HOST = "server address"
-config.PORT = 1234
-config.ID = "esp1"
-config.ENDPOINT = "/tpoic"
+config.HOST = "host address"
+config.PORT = PORT
+config.ID = "node name"
+config.ENDPOINT = "topic path before your directory"
 config.USER = "test"
 config.PASS = "test"
-config.MQTLS = 0 -- 0 = unsecured, 1 = TLS/SSL FOR FUTURE EXPANSION
+config.MQTLS = 0 -- 0 = unsecured, 1 = TLS/SSL; for future expansion
 
 config.GPIO = {}
 -- LEDs
